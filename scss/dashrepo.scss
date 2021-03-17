@@ -1,0 +1,95 @@
+@media (max-width: 800px) {
+    ul {
+      transform: translateX(-210px);
+    }
+  
+    .side-bar {
+      width: 15%;
+    }
+  
+    .profil {
+      transform: translateX(-210px);
+    }
+  
+    .page-content {
+      margin-left: 100px;
+    }
+  
+    .d_btns {
+      padding: 0;
+    }
+  
+    .e_btn {
+      width: 380px;
+      font-size: 20px;
+    }
+  
+    .p_btn {
+      width: 380px;
+      font-size: 20px;
+    }
+  
+    .ph1_btn {
+      display: none;
+    }
+  
+    .d_btns {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .page-title {
+      font-size: 22px;
+    }
+  
+    .burger {
+      display: block;
+      cursor: pointer;
+      color: white;
+    }
+    .toggle .line1 {
+      -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .toggle .line2 {
+      opacity: 0;
+    }
+  
+    .toggle .line3 {
+      -webkit-transform: rotate(45deg) translate(-5px, -6px);
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    .toright {
+      width: 264px;
+    }
+    .torightX {
+      transform: translateX(0px);
+    }
+  
+    .burgeraf {
+      position: relative;
+      top: 20px;
+      left: -5px;
+      transition: all 0.4s ease;
+    }
+  
+    .lineaf1 {
+      transform: rotate(45deg);
+      transition: all 0.4s ease;
+    }
+    .lineaf2 {
+      opacity: 0;
+    }
+    .lineaf3 {
+      transform: rotate(-45deg);
+      position: absolute;
+      transition: all 0.4s ease;
+      top: -0px;
+    }
+    .screen{
+      width: fit-content;
+    }
+  }
+  

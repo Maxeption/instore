@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../scss/table.css" />
+    <link rel="stylesheet" href="../scss/dashbord.css" />
+    <link rel="stylesheet" href="../scss/table2.css" />
+
+    <title>Products</title>
+  </head>
+
+  <body>
+    <div class="model">
+      <div class="screen">
+        <div class="addov">
+          <input id="name" class="addbtns" type="text" placeholder="Name" />
+          <select name="category" class="addbtns" id="ctg">
+            <option value="op0">category</option>
+            <option value="op1">Phones</option>
+            <option value="op2">Computers</option>
+            <option value="op3">Accessories</option>
+          </select>
+          <input id="brd" class="addbtns" type="text" placeholder="Brand" />
+          <input
+            id="quan"
+            class="addbtns"
+            type="number"
+            min="1"
+            placeholder="Quantity"
+          />
+          <input
+            id="price"
+            class="addbtns"
+            type="number"
+            min="1"
+            placeholder="Price"
+          />
+          <label class="upload" for="upload"
+            ><img
+              class="upload"
+              src="../image/box+document+outline+share+top+upload+icon-1320195323221671611.png"
+              alt=""
+          /></label>
+          <input type="file" name="upload" id="upload" />
+          <button id="btn">Add</button>
+        </div>
+        <img
+          class="close"
+          src="../image/Icon ionic-md-close-circle-outline.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="blur">
+      <div class="container">
+        <div class="s_t-bar">
+          <div class="top-bar"></div>
+
+          <div class="side-bar">
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <div class="profil">
+              <div class="pfp">
+                <div class="dot"></div>
+                <img
+                  id="u_pfp"
+                  src="../image/157603941_503558467689132_3061699680500101687_n.jpg"
+                  alt=""
+                />
+              </div>
+              <span id="name">ELMahdi ELBoustani</span>
+              <span class="online">Administrator</span>
+            </div>
+            <div class="page_li">
+              <ul>
+                <a href="dashboard.html"><li>Dashboard</li></a>
+                <a href="products1.html"><li>Products</li></a>
+                <a href="employees.html"><li>Employees</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bodyum">
+        <div class="contente">
+          <h1>PRODUCTS</h1>
+          <img src="../image/icone-d'ajouter.png" alt="icone" class="icone1" />
+        </div>
+
+        <div class="table-users">
+          <table cellspacing="0">
+            <tr>
+              <th></th>
+              <th>ID</th>
+              <th>Name</th>
+              <th>brand</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Category</th>
+              <th></th>
+              <th></th>
+            </tr>
+
+            <tr>
+              <td>
+                <img  src="https://i.picsum.photos/id/1005/100/100.jpg" alt="" />
+              </td>
+              <td>1</td>
+              <td>Samsung Earphones</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>13$</td>
+              <td>Earphones</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="https://i.picsum.photos/id/1027/100/100.jpg" alt="" />
+              </td>
+              <td>2</td>
+              <td>Y9</td>
+              <td>Samsung</td>
+              <td>10</td>
+              <td>399$</td>
+              <td>Phone</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="https://i.picsum.photos/id/64/100/100.jpg" alt="" />
+              </td>
+              <td>3</td>
+              <td>QLED Smart 4K</td>
+              <td>LG</td>
+              <td>5</td>
+              <td>749$</td>
+
+              <td>TV</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="https://i.picsum.photos/id/1025/100/100.jpg" alt="" />
+              </td>
+              <td>4</td>
+              <td>Galaxy Buds</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>199$</td>
+              <td>Earbuds</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://i.picsum.photos/id/1025/100/100.jpg" alt="" />
+              </td>
+              <td>4</td>
+              <td>Galaxy Buds</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>199$</td>
+              <td>Earbuds</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://i.picsum.photos/id/1025/100/100.jpg" alt="" />
+              </td>
+              <td>4</td>
+              <td>Galaxy Buds</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>199$</td>
+              <td>Earbuds</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://i.picsum.photos/id/1025/100/100.jpg" alt="" />
+              </td>
+              <td>4</td>
+              <td>Galaxy Buds</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>199$</td>
+              <td>Earbuds</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://i.picsum.photos/id/1025/100/100.jpg" alt="" />
+              </td>
+              <td>4</td>
+              <td>Galaxy Buds</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>199$</td>
+              <td>Earbuds</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://i.picsum.photos/id/1025/100/100.jpg" alt="" />
+              </td>
+              <td>4</td>
+              <td>Galaxy Buds</td>
+              <td>Samsung</td>
+              <td>2</td>
+              <td>199$</td>
+              <td>Earbuds</td>
+              <td>
+                <img
+                  src="../image/updated.png"
+                  alt="update"
+                  class="update-remove"
+                  id="update"
+                />
+              </td>
+              <td>
+                <img
+                  src="../image/remove.png"
+                  alt="remove"
+                  class="update-remove"
+                />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="../js/regex.js"></script>
+
+</html>

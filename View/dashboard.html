@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="s_t-bar">
+        <div class="top-bar">
+          <div class="page-content">
+            <div class="page-title">
+              <h1>DASHBOARD</h1>
+            </div>
+            <div class="d_btns">
+              <div class="p_btn">
+                <h1>PRODUCTS</h1>
+              </div>
+
+              <div class="ph1_btn"></div>
+
+              <div class="e_btn">
+                <h1>EMPLOYEES</h1>
+              </div>
+
+              <div class="ph2_btn"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-bar">
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <div class="profil">
+            <div class="pfp">
+              <div class="dot"></div>
+              <img
+                id="u_pfp"
+                src="../image/157603941_503558467689132_3061699680500101687_n.jpg"
+                alt=""
+              />
+            </div>
+            <span id="name">ELMahdi ELBoustani</span>
+            <span class="online">Administrator</span>
+          </div>
+          <div class="page_li">
+            <ul>
+              <a href="dashboard.html"><li class ="active">Dashboard</li></a>
+              <a href="products1.html"><li>Products</li></a>
+              <a href="employees.html"><li>Employees</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/script.js"></script>
+
+  <script>
+    document
+      .querySelector(
+        "body > div > div > div.top-bar > div > div.d_btns > div.p_btn"
+      )
+      .addEventListener("click", function () {
+        location.href = "products1.html";
+      });
+    document
+      .querySelector(
+        "body > div > div > div.top-bar > div > div.d_btns > div.e_btn"
+      )
+      .addEventListener("click", function () {
+        location.href = "employees.html";
+      });
+  </script>
+</html>

@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>PHP login system</title>
+
+    <link rel="stylesheet" href="../scss/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="../image/background.png" alt="background" />
+      <div id="frm">
+        <div class="pfp"><img src="../image/login.png" /></div>
+        <form name="f1" action="../php/Login.php" method="POST">
+          <input type="text" id="CIN" name="CIN" placeholder=" Username" />
+
+          <input
+            type="password"
+            id="Pass"
+            name="Pass"
+            placeholder=" Password"
+          />
+
+          <button type="submit" id="btn" value="Login">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

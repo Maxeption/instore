@@ -68,29 +68,29 @@ function showError(msg) {
 
 add.addEventListener("click", () => {
   if (!/^\w+$/.test(Pname.value)) {
-    showError("Invalid name")
+    showError("Invalid name");
     return;
   }
 
   let indexCat = category.selectedIndex;
 
   if (indexCat == 0) {
-    showError("invalid category ")
+    showError("invalid category ");
     return;
   }
 
   if (!/^\w+$/.test(brand.value)) {
-    showError("Invalid Brand")
+    showError("Invalid Brand");
     return;
   }
 
   if (!/^\d+$/.test(quantity.value)) {
-    showError("Invalid quantity ")
+    showError("Invalid quantity ");
     return;
   }
 
   if (!/^\d+(.\d{2})?$/.test(price.value)) {
-    showError("Invalid price")
+    showError("Invalid price");
     return;
   }
 
@@ -104,5 +104,4 @@ add.addEventListener("click", () => {
     showConfirmButton: false,
     timer: 1000,
   });
-
 });

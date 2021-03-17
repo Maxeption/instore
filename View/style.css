@@ -2,9 +2,7 @@
 
 * {
   font-family: "Poppins";
-
 }
-
 
 ul {
   display: flex;
@@ -52,8 +50,6 @@ a {
   padding-top: 20px;
   transition: all 0.4s;
 }
-
-
 
 .pfp {
   height: 100px;
@@ -289,7 +285,7 @@ li {
     transition: all 0.4s ease;
     top: -0px;
   }
-  .screen{
+  .screen {
     width: fit-content;
   }
 }
